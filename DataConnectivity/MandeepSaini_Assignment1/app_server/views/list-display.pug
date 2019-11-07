@@ -1,8 +1,0 @@
-extends layout
-
-block content
-  h1= title
-  p Here is the list of Phones available #{title}
-  ul
-   each val in phone
-    li=  val.type + ': ' + val.name
